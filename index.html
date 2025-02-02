@@ -10,9 +10,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome  -->
     <script src="https://kit.fontawesome.com/a55bd9149b.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!--  -->
+    <style>
+        .sora{
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
 </head>
 
-<body>
+<body class="sora">
     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
         <!-- navbar -->
         <nav class="shadow md:shadow-none">
@@ -319,7 +331,8 @@
     <!-- footer section -->
     <footer class="my-24 bg-[#179800] text-white px-4 relative ">
         <!-- Newsletter Section -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-black bg-[#EFEBE3] p-6 rounded-md max-w-screen-lg mx-auto relative top-[-150px] shadow-lg">
+        <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-6 text-black bg-[#EFEBE3] p-6 rounded-md max-w-screen-lg mx-auto relative top-[-150px] shadow-lg">
             <div>
                 <img src="c2-assets/vegetable-busket.png" alt="Basket of Vegetables" class="max-w-full">
             </div>
@@ -330,24 +343,26 @@
                     Exclusive training tips, tricks, product deals, and more.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <input type="email" placeholder="Enter your email" class="input input-bordered w-full sm:max-w-xs p-2 border border-gray-300 rounded-md">
+                    <input type="email" placeholder="Enter your email"
+                        class="input input-bordered w-full sm:max-w-xs p-2 border border-gray-300 rounded-md">
                     <button class="bg-[#179800] px-6 py-2 rounded-md text-white hover:bg-green-700 transition-all">
                         Subscribe
                     </button>
                 </div>
             </div>
         </div>
-    
+
         <!-- Footer Main Content -->
         <div class="flex flex-col sm:flex-row justify-evenly container mx-auto gap-8 md:gap-16 py-16">
             <!-- Logo & Description -->
             <div class="text-center sm:text-left">
-                <img class="w-[150px] h-[60px] bg-white p-2 rounded-md mx-auto sm:mx-0" src="c2-assets/logo-header.png" alt="Company Logo">
+                <img class="w-[150px] h-[60px] bg-white p-2 rounded-md mx-auto sm:mx-0" src="c2-assets/logo-header.png"
+                    alt="Company Logo">
                 <p class="mt-2 max-w-xs">
                     Discover a world of treats, toys, and essentials handpicked for your furry friends.
                 </p>
             </div>
-    
+
             <!-- Navigation Links -->
             <nav class="text-center sm:text-left">
                 <ul class="space-y-2">
@@ -356,20 +371,24 @@
                     <li><a href="#" class="text-white hover:text-gray-300 transition-all">Contact Us</a></li>
                 </ul>
             </nav>
-    
+
             <!-- Social Links -->
             <div class="text-center sm:text-left">
                 <h2 class="text-lg font-semibold">Follow us</h2>
                 <ul class="flex justify-center sm:justify-start gap-4 mt-2">
-                    <li><a href="#" aria-label="Facebook" class="text-white hover:text-blue-500 transition-all"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="#" aria-label="Instagram" class="text-white hover:text-pink-500 transition-all"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#" aria-label="LinkedIn" class="text-white hover:text-blue-700 transition-all"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="#" aria-label="YouTube" class="text-white hover:text-red-600 transition-all"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#" aria-label="Facebook" class="text-white hover:text-blue-500 transition-all"><i
+                                class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" aria-label="Instagram" class="text-white hover:text-pink-500 transition-all"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" aria-label="LinkedIn" class="text-white hover:text-blue-700 transition-all"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#" aria-label="YouTube" class="text-white hover:text-red-600 transition-all"><i
+                                class="fa-brands fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
     </footer>
-    
+
 </body>
 
 </html>
